@@ -1,0 +1,290 @@
+.top{ background:#000; }
+.logo {
+	padding-top: 9px ;
+	padding-bottom: 9px ;
+}
+.card-stream { padding:143px 0; }
+.content-area { padding:143px 0; }
+.box { 
+width: 585px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 50px 50px #0000000D;
+border: 1px solid #E5EAF4;
+opacity: 1;
+ margin:0 auto;
+ padding:65px 40px 40px 40px;
+ height:604px;
+}
+.box1 { 
+
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 50px 50px #0000000D;
+border: 1px solid #E5EAF4;
+opacity: 1;
+ margin:0 auto;
+ padding:40px;
+
+}
+.box h1 { padding:0;margin:0;font-family: 'sofia_promedium';	 }
+.form-control1 {
+	display: block;
+	width: 100%;
+	height: 45px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	border-right: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.vendor-logo {
+	padding-top: 24px;
+}
+.signin { padding-top:25px;font-size:20px; color:#6B6C6F;  font-family: 'sofia_proregular'; }
+.signin a{ color:#F14F24 }
+.v-align-children {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.content-area h1 {
+	font-weight: 300;
+	font-size: 44px;
+	line-height: 50px;
+	color:#000;
+}
+.content-area p { font-size:22px;padding:10px 0;font-family: 'sofia_prolight'; }
+.content-area p a{ color:#F14F24; }
+.content-area p span{ color:#F14F24; }
+.add_btn {
+	background: #F14F24;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 13px;
+}
+.add_btn:hover {
+	background: #bc300b;color: #fff;text-decoration:none;}
+.brd { border-bottom:solid 1px #EAEDF3; }
+.pb30 { padding-bottom:30px; }
+.pt30 { padding-top:30px; }
+.pb20 { padding-bottom:20px; }
+.bigcommerce { text-align:right; }
+.store-heading h2 {
+	padding: 0;
+	margin: 0;
+	font-family: 'sofia_promedium';
+	font-size: 22px;
+}
+h1 { font-family: 'sofia_prolight'; }
+.box label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 10px;
+	font-family: 'sofia_promedium';
+	font-size: 18px;
+	color: #808080;
+}
+.box h4 {
+	font-size: 23px;
+	font-family: 'sofia_promedium';
+	color:#5a5a5a;
+}
+.store label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-family: 'sofia_promedium';
+	font-size: 15px;
+	color: #000;
+}
+.store .form-group {
+	margin-bottom: 32px;
+}
+.store .form-control {
+	display: block;
+	width: 100%;
+	height: 40px;
+	padding: 6px 12px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	color: #5c5c5c;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #E2E5ED;
+	border-radius: 4px;
+	box-shadow: unset;
+}
+.brd1 {
+	border-top: solid 1px #EAEDF3;
+}
+.add_btn span {
+	font-family: 'sofia_prolight';
+	padding-left: 5px;
+}
+.select-menu {
+  --background: #242836;
+  --text: #fff;
+  --icon: #fff;
+  --icon-active: #3f4656;
+  --list: #1c212e;
+  --list-text: rgba(255, 255, 255, 0.2);
+  --list-text-hover: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+.select-menu select,
+.select-menu .button {
+  font-family: inherit;
+  margin: 0;
+  border: 0;
+  text-align: left;
+  text-transform: none;
+  -webkit-appearance: none;
+}
+.select-menu select {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  opacity: 0;
+  padding: 8px 36px 8px 12px;
+  visibility: hidden;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+.select-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	transform: translateY(var(--t));
+	transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+.select-menu ul li {
+  padding: 8px 36px 8px 12px;
+  cursor: pointer;
+}
+.select-menu > ul {
+  background: var(--list);
+  color: var(--list-text);
+  border-radius: 6px;
+}
+.select-menu > ul li {
+  transition: color 0.3s ease;
+}
+.select-menu > ul li:hover {
+  color: var(--list-text-hover);
+}
+.select-menu .button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  z-index: 1;
+
+  display: block;
+  overflow: hidden;
+  border-radius: 6px;
+  color: var(--text);
+  background: var(--background);
+}
+.select-menu .button em {
+  --r: 45deg;
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 0;
+  width: 7px;
+  height: 7px;
+  margin-top: 13px;
+  -webkit-backface-visibility: hidden;
+}
+.select-menu .button em:before, .select-menu .button em:after {
+  --o: 0.4;
+  content: "";
+  width: 7px;
+  height: 7px;
+  opacity: var(--o);
+  display: block;
+  position: relative;
+  transition: opacity 0.2s ease;
+  transform: rotate(var(--r)) scale(0.75);
+}
+.select-menu .button em:before {
+  border-left: 2px solid var(--icon);
+  border-top: 2px solid var(--icon);
+  top: 1px;
+}
+.select-menu .button em:after {
+  border-right: 2px solid var(--icon);
+  border-bottom: 2px solid var(--icon);
+  bottom: 1px;
+}
+.select-menu:not(.open) > ul {
+  opacity: 0;
+  pointer-events: none;
+}
+.select-menu.open.tilt-up {
+  -webkit-animation: tilt-up 0.4s linear forwards;
+          animation: tilt-up 0.4s linear forwards;
+}
+.select-menu.open.tilt-up .button em:before {
+  --o: 1;
+}
+.select-menu.open.tilt-down {
+  -webkit-animation: tilt-down 0.4s linear forwards;
+          animation: tilt-down 0.4s linear forwards;
+}
+.select-menu.open.tilt-down .button em:after {
+  --o: 1;
+}
+
+@-webkit-keyframes tilt-up {
+  40%, 60% {
+    transform: perspective(500px) rotateX(8deg);
+  }
+}
+
+@keyframes tilt-up {
+  40%, 60% {
+    transform: perspective(500px) rotateX(8deg);
+  }
+}
+@-webkit-keyframes tilt-down {
+  40%, 60% {
+    transform: perspective(500px) rotateX(-8deg);
+  }
+}
+@keyframes tilt-down {
+  40%, 60% {
+    transform: perspective(500px) rotateX(-8deg);
+  }
+}
+.c-right {
+	float: left;
+	width: 9%;
+}
+.c-left {
+	float: left;
+	width: 21%;
+	padding-top: 9px;
+}

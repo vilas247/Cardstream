@@ -1,0 +1,78 @@
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px) {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #080808;
+	border-top: unset;
+}
+.content-area {
+	padding: 30px 0;
+}
+.card-stream {
+	padding: 30px 0;
+}
+.box {
+	width: 341px;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 50px 50px #0000000D;
+	border: 1px solid #E5EAF4;
+	opacity: 1;
+	margin: 0 auto;
+	padding: 14px;
+	height: 407px;
+}
+.content-area h1 {
+	font-weight: 300;
+	font-size: 23px;
+	line-height: 32px;
+}
+.v-align-children {
+	align-items: center;
+	display: unset;
+	flex-direction: row;
+	justify-content: center;
+}
+.content-area p {
+	font-size: 18px;
+	padding: 5px 0;
+	font-family: 'sofia_prolight';
+}
+.v-align-children img {
+	width: 100%;
+}
+.box1 {
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 50px 50px #0000000D;
+	border: 1px solid #E5EAF4;
+	opacity: 1;
+	margin: 0 auto;
+	padding: 19px;
+}
+.pt30 {
+	padding-top: 15px;
+}
+.pb30 {
+	padding-bottom: 15px;
+}
+}
+/*@media (max-width:640px) {
+.navbar-brand img {
+  width: 29%;
+}
+}*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 991px) {
+
+}
+
+@media only screen 
+and (min-device-width : 992px) 
+and (max-device-width : 1024px) {
+
+}
